@@ -5,6 +5,7 @@ This is step by step process to spin hyperledger-fabric in you machine and deplo
 
 ## Option 1
 Run following command in your terminal. Provide required version numbers in the following command for fabric, fabric-ca and third party. By default it take the latest one.
+     
      curl -sSL http://bit.ly/2ysbOFE | bash -s <fabric> <fabric-ca> <thirdparty>
 
 ## Option 2
@@ -12,6 +13,7 @@ Download the bootstrap.sh file from https://raw.githubusercontent.com/hyperledge
 I have reduced the additional code from the script and kept with bare minimum required
 
 Execute the bootstrap script with fillowing parameters:
+     
      bootstrap.sh [version [ca_version [thirdparty_version]]] [options]
      options:
           -h : this help
