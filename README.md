@@ -1,14 +1,14 @@
 # hyperledger-fabric-jumpstart
 This is step by step process to spin hyperledger-fabric in you machine and deploy your first nework
 
-# Download binaries into local directory and the fabric, fabric-ca, third-party images
+## Download binaries into local directory and the fabric, fabric-ca, third-party images
 
-## Option 1
+### Option 1
 Run following command in your terminal. Provide required version numbers in the following command for fabric, fabric-ca and third party. By default it take the latest one.
      
      curl -sSL http://bit.ly/2ysbOFE | bash -s <fabric> <fabric-ca> <thirdparty>
 
-## Option 2
+### Option 2
 Download the bootstrap.sh file from https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh
 I have reduced the additional code from the script and kept with bare minimum required
 
