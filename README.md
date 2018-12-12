@@ -4,7 +4,7 @@ This is step by step process to spin hyperledger-fabric in you machine and deplo
 # Download binaries into local directory and the fabric, fabric-ca, third-party images
 
 ## Option 1
-Run following command in your terminal. Provide 
+Run following command in your terminal. Provide required version numbers in the following command for fabric, fabric-ca and third party. By default it take the latest one.
      curl -sSL http://bit.ly/2ysbOFE | bash -s <fabric> <fabric-ca> <thirdparty>
 
 ## Option 2
