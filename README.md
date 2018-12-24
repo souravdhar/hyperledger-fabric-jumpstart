@@ -1,4 +1,4 @@
-# hyperledger-fabric-jumpstart
+# hyperledger-fabric-jumpstart [INCOMPLETE ...]
 This is step by step process to spin hyperledger-fabric in you machine and deploy your first nework.
 
 ## Download binaries into local directory and the fabric, fabric-ca, third-party images
